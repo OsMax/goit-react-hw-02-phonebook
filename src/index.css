@@ -13,3 +13,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.appContainer {
+  width: 400px;
+  max-width: 90%;
+  margin: 20px auto 0;
+  padding: 20px;
+  border: 2px solid #8e945e;
+
+  background-color: #dde794;
+  box-shadow: 10px 5px 7px #8e945e;
+  border-radius: 20px;
+}
+
+.appContainer h1 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.appContainer h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}

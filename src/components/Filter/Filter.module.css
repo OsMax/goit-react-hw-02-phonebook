@@ -1,0 +1,19 @@
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textFind {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.inputFind {
+  height: 20px;
+  width: 60%;
+  padding: 2px 8px;
+  border: 1px solid #8e945e;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px #8e945e;
+}
