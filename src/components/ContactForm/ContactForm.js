@@ -34,7 +34,7 @@ class ContactForm extends Component {
             value={this.state.name}
             onChange={this.stateChange}
             pattern="[A-Za-zА-Яа-яЁё]{2,}[ ][A-Za-zА-Яа-яЁё]{2,}"
-            placeholder="Name Surname (min length 3 symbols)"
+            placeholder="Name Surname (min 2 symbols for each)"
           />
         </label>
         <label className={css.label}>
