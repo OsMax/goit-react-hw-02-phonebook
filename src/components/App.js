@@ -30,13 +30,12 @@ class App extends Component {
   };
 
   checkNewContat = newContact => {
-    if (
-      this.state.contacts.find(
+    const tes = this.state.contacts.find(
         contact =>
           contact.name.toLocaleLowerCase() ===
           newContact.name.toLocaleLowerCase()
-      )
-    ) {
+      );
+    if ( res ) {
       alert(`Contacts name "${newContact.name}" already exists`);
       return false;
     } else if (
