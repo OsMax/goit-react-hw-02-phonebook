@@ -25,7 +25,8 @@ class App extends Component {
   };
 
   setNewFilter = e => {
-    this.setState({ filter: e.target.value });
+    const value = e.target.value;
+    this.setState({ filter: value });
   };
 
   checkNewContat = newContact => {
