@@ -30,7 +30,7 @@ class App extends Component {
   };
 
   checkNewContat = newContact => {
-    const tes = this.state.contacts.find(
+    const res = this.state.contacts.find(
         contact =>
           contact.name.toLocaleLowerCase() ===
           newContact.name.toLocaleLowerCase()
